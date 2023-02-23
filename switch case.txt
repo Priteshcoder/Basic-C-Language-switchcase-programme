@@ -1,0 +1,46 @@
+# include <stdio.h>
+void main()
+{
+int num;
+printf("Enter any number between 0 to 9\n");
+scanf("%d",&num);
+switch (num)
+{
+case 0:
+    printf("Value IS 0");
+    break;
+case 1:
+    printf("Value IS 1");
+    break;
+case 2:
+    printf("Value IS 2");
+    break;
+case 3:
+    printf("Value IS 3");
+    break;
+case 4:
+    printf("Value IS 4");
+    break;
+case 5:
+    printf("Value IS 5");
+    break;
+case 6:
+    printf("Value IS 6");
+    break;
+case 7:
+    printf("Value IS 7");
+    break;
+case 8:
+    printf("Value IS 8");
+    break;
+case 9:
+    printf("Value IS 9");
+    break;
+default:
+    printf("Enter value is incorrect");
+    break;
+
+}
+}
+
+
